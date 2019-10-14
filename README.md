@@ -1,2 +1,3 @@
 # Hacktoberfest-event-website
-# Madurai Hacktoberfest event
+
+a demo repository with html,css,javaScript for Hacktober madurai website.
