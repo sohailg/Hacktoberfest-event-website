@@ -1,0 +1,39 @@
+<html>
+
+<head>
+
+ <title>JAVA SCRIPT</title>
+
+</head>
+
+
+<body>
+<p id="text">hello world</p>
+
+<button id="b">change text</button>
+
+<p id="text2">java script is </p>
+
+<button id="b2">append text</button>
+
+
+<script type="text/javascript">
+ 
+ document.getElementById("b").onclick = function(){
+ 
+ document.getElementById("text").innerHTML = "text is changed"
+ 
+ }
+ document.getElementById("b2").onclick = function(){
+ 
+ document.getElementById("text2").innerHTML = document.getElementById("text2").innerHTML+"nice";
+ 
+ }
+ 
+</script>
+
+
+</body>
+ 
+
+</html>
